@@ -1,0 +1,10 @@
+# L'environnement virtuel
+.venv/
+
+# Fichiers temporaires Python
+__pycache__/
+*.pyc
+
+listings.csv
+reviews.csv
+neighbourhoods.geojson
