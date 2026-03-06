@@ -8,20 +8,6 @@ Analyse exploratoire avancée du marché Airbnb de Chicago à partir des donnée
 
 ---
 
-## Structure du projet
-
-```
-├── airbnb_chicago_eda.ipynb       # Notebook principal (4 phases)
-├── executive_summary.pdf          # Executive summary (1 page)
-├── fig_carte_choropleth_lisa.html # Carte interactive LISA (Folium)
-└── data/
-    ├── listings.csv.gz            # Inside Airbnb — snapshot sept. 2025
-    ├── reviews.csv.gz
-    └── neighbourhoods.geojson
-```
-
----
-
 ## Données
 
 Source : [Inside Airbnb — Chicago](http://insideairbnb.com/get-the-data/)
@@ -90,4 +76,4 @@ pip install numpy pandas matplotlib seaborn geopandas networkx scipy \
 
 ## Reproductibilité
 
-Seed fixé à **2077** dans toutes les cellules aléatoires (PSM, bootstrap, UMAP, train/test split). Les chemins sont relatifs — placer les fichiers de données dans `data/` à la racine du projet.
+Seed fixé à **2077** dans toutes les cellules aléatoires (PSM, bootstrap, UMAP, train/test split). Les chemins sont relatifs, placer les fichiers de données à la racine du projet.
