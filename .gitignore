@@ -4,6 +4,9 @@
 # Fichiers temporaires Python
 __pycache__/
 *.pyc
+*.png
+*.pdf
+*.html
 
 listings.csv
 reviews.csv
